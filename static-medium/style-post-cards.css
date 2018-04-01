@@ -63,33 +63,28 @@ header {
   top: 0;
   left: 0;
 }
-.date .day, p.day, p.month {
-    color: #fff;
+.date p.day, .date p.month {
+  color: #fff;
 }
 .date p {
   margin: 0;
 }
 
 .post-details {
-  position: relative;
-  padding: 0.5rem 0.75rem 2rem;
+  padding: 0.5rem 0.75rem 0;
   font-weight: 300;
+  text-align: center;
 }
 .post-details .post-meta {
   font-size: 0.8rem;
-  display: block;
+  margin: 0.5rem;
 }
 .post-details .post-author {
   font-size: 0.9em;
   text-transform: uppercase;
 }
-.post-details .tags {
-  position: absolute;
-  bottom: -5px;
-  min-height: 40px;
-}
 .post-details .category {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   text-transform: uppercase;
   margin: 2px;
 }
