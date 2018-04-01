@@ -1,4 +1,4 @@
-# Medium blog feed for Static Sites
+# static-medium :: Medium blog feed for Static Sites
 
 * * *
 * * *
