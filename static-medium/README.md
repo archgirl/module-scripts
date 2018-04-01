@@ -37,7 +37,6 @@ For example:
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.min.js"></script>
 <script src="https://archgirl.github.io/module-scripts/static-medium/script.js"></script>
 ```
 * * *
@@ -67,7 +66,6 @@ Then you'll want to import the scripts in Embed Widget #2
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.min.js"></script>
 <script src="https://archgirl.github.io/module-scripts/static-medium/script.js"></script>
 ```
 
