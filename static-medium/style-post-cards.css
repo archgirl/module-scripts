@@ -59,10 +59,12 @@ header {
   padding: 10px;
   text-align: center;
   font-weight: 600;
-  color: #fff;
   z-index: 9;
   top: 0;
   left: 0;
+}
+.date .day, .date .month {
+  color: #fff;
 }
 .date p {
   margin: 0;
