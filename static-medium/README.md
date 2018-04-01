@@ -1,6 +1,7 @@
 # Medium blog feed for Static Sites
 
 * * *
+* * *
 
 ## How To Use It
 
@@ -39,6 +40,7 @@ For example:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.min.js"></script>
 <script src="https://archgirl.github.io/module-scripts/static-medium/script.js"></script>
 ```
+* * *
 * * *
 
 ## Using this with [Carrd](https://carrd.co/)
