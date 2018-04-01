@@ -65,8 +65,8 @@ $(function () {
         // Display post categories - max of 5
         output += '</div></div></a></article>';
         
-        // Limit to 3 posts
-        return k < 2;
+        // Limit number of posts
+        return k < postQuantity -1;
 			});
 
       // Post all output

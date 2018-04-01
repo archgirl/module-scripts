@@ -30,10 +30,16 @@ For example:
 
 ### 4. Add the scripts before `</body>`
 
+Update the placeholder slug using your own.
+
+Set the number of posts you would like. By default it is three.
+
 ```
 <script>
   // Assign publication feed URL
   var mediumHandle = 'your-medium-publication-slug';
+  // Number of posts to display
+  var postQuantity = 3;
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -62,7 +68,8 @@ Then you'll want to import the scripts in Embed Widget #2
 
 ```
 <script>
- var mediumHandle = 'your-medium-publication-slug';
+  var mediumHandle = 'your-medium-publication-slug';
+  var postQuantity = 3;
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
