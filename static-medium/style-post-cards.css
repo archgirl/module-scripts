@@ -53,11 +53,12 @@ header {
 }
 
 .date {
-  background-color: rgba(76, 76, 76, 0.65);
+  background-color: rgba(0, 0, 0, 0.4);
   border-bottom-right-radius: 20px;
   position: absolute;
   padding: 10px;
   text-align: center;
+  font-size: 0.75rem;
   font-weight: 600;
   z-index: 9;
   top: 0;
@@ -82,9 +83,14 @@ header {
 .post-details .post-author {
   font-size: 0.9em;
   text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.post-details .tags {
+    line-height: 0.8;
+    padding: 0.4rem;
 }
 .post-details .category {
-  font-size: 0.4rem;
+  font-size: 0.5rem;
   text-transform: uppercase;
   margin: 2px;
 }
