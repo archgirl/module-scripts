@@ -47,7 +47,7 @@ For example:
 
 ### 1. Add Embed Widgets
 
-First you'll want to import the base styling in Embed Widget #2
+First you'll want to import the base styling in Embed Widget #1
 
 - Type = Code
 - Label = blog-medium-style
