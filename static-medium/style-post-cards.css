@@ -1,17 +1,38 @@
 /* Feed style */
 .posts {
-  width: 96%;
-  margin: 2%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-items: space-between;
+  justify-content: center;
 }
 
 article {
+  float: left;
+  overflow: hidden;
   margin: 0.5rem;
-  width: 33.33%;
+  width: 30%;
   text-align: center;
-  box-shadow: 1px 3px 10px #dcdcdc;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease-out;
+}
+article:first-child {
+  margin-left: 0;
+}
+article:last-child {
+  margin-right: 0;
+}
+article a {
+  text-decoration: none;
+  color: inherit;
+}
+
+article:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 header {
@@ -19,10 +40,8 @@ header {
 }
 
 .image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
+  height: 200px;
   margin: 0;
   overflow: hidden;
   border-bottom: 1px solid #ededed;
@@ -45,19 +64,27 @@ header {
   top: 0;
   left: 0;
 }
+.date p {
+  margin: 0;
+}
 
 .post-details {
-  padding: 0.5rem 0.75rem 1rem;
+  position: relative;
+  padding: 0.5rem 0.75rem 2rem;
   font-weight: 300;
 }
 .post-details .post-meta {
   font-size: 0.8rem;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+  display: block;
 }
-.post-details .post-details {
-  font-size: 0.8em;
+.post-details .post-author {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+.post-details .tags {
+  position: absolute;
+  bottom: -5px;
+  min-height: 40px;
 }
 .post-details .category {
   font-size: 0.5rem;
@@ -67,15 +94,34 @@ header {
 
 @media screen and (max-width: 768px) {
   .posts {
+    width: 80%;
     flex-direction: column;
+    margin: auto;
   }
 
   article {
-    margin-bottom: 2rem;
-    width: 98%;
+    margin: 0 0 2rem;
+    width: 100%;
+  }
+
+  article:hover {
+    transform: none;
+  }
+  article:hover img {
+    opacity: 0.8;
+    filter: alpha(opacity=30);
   }
 
   .image img {
     height: 300px;
+  }
+
+  .post-details {
+    padding-bottom: 1rem;
+  }
+
+  .tags {
+    display: none;
+    min-height: 0;
   }
 }
