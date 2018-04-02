@@ -9,7 +9,7 @@ $(function () {
 			$.each(response.items, function (k, item) {
         
         // Display the image
-				output += '<article><a href="' + item.guid + '" aria-label="Read blog post"><header><div class="image"><img src="' + item.thumbnail + '">';
+				output += '<article><a href="' + item.guid + '" aria-label="Read blog post"><header><div class="image-medium"><img src="' + item.thumbnail + '">';
         
         // Get the date
         var date = new Date(item.pubDate);
