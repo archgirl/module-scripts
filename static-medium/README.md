@@ -9,13 +9,16 @@
 
 There are 3 style options!
 
-Card style
+**Card style**
+
 ![card style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card.gif)
 
-Card Narrow style
+**Card Narrow style**
+
 ![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card2.gif)
 
-List style
+**List style**
+
 ![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-list.gif)
 
 Add the CSS for the style you want.
