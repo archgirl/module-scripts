@@ -9,26 +9,29 @@
 
 There are 3 style options!
 
-Card style
+**Card style**
+
 ![card style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card.gif)
 
-Card Narrow style
+**Card Narrow style**
+
 ![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card2.gif)
 
-List style
+**List style**
+
 ![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-list.gif)
 
 Add the CSS for the style you want.
 
 ```
 <!-- For Card style -->
-<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards.css">
+<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards.min.css">
 
 <!-- For Card Narrow style -->
-<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards-narrow.css">
+<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards-narrow.min.css">
 
 <!-- For List style -->
-<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-list.css">
+<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-list.min.css">
 ```
 
 ### 2. Add the posts div inside the `<body>` where you want it
@@ -93,7 +96,7 @@ Then you'll want to import the scripts in Embed Widget #2
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://archgirl.github.io/module-scripts/static-medium/script.js"></script>
+<script src="https://archgirl.github.io/module-scripts/static-medium/script.min.js"></script>
 ```
 
 **Don't forget to replace the `mediumHandle` with your own!**
