@@ -7,8 +7,28 @@
 
 ### 1. Include CSS styling before `</head>`
 
+There are 3 style options!
+
+Card style
+![card style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card.gif)
+
+Card Narrow style
+![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card2.gif)
+
+List style
+![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-list.gif)
+
+Add the CSS for the style you want.
+
 ```
+<!-- For Card style -->
 <link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards.css">
+
+<!-- For Card Narrow style -->
+<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards-narrow.css">
+
+<!-- For List style -->
+<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-list.css">
 ```
 
 ### 2. Add the posts div inside the `<body>` where you want it
@@ -57,7 +77,7 @@ First you'll want to import the base styling in Embed Widget #1
 - Type = Code
 - Label = blog-medium-style
 - Style = hidden + head
-- Code = `<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards.css">`
+- Code = your preferred CSS link (scroll back up to pick)
 
 Then you'll want to import the scripts in Embed Widget #2
 
