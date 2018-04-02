@@ -64,7 +64,7 @@ header {
   top: 0;
   left: 0;
 }
-.date p.day, .date p.month {
+.date .day, .date .month {
   color: #fff;
 }
 .date p {
