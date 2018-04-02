@@ -39,14 +39,14 @@ header {
   position: relative;
 }
 
-.image {
+.image-medium {
   position: relative;
   height: 200px;
   margin: 0;
   overflow: hidden;
   border-bottom: 1px solid #ededed;
 }
-.image img {
+.image-medium img {
   height: 200px;
   width: 100%;
   object-fit: cover;
