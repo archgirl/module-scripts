@@ -54,14 +54,14 @@ header {
   border-radius: 4px 0 0 4px;
 }
 
-.image {
+.image-medium {
   width: 180px;
   height: 140px;
   margin: 0;
   overflow: hidden;
 }
 
-.image img {
+.image-medium img {
   height: 100%;
   width: 100%;
   object-fit: cover;
