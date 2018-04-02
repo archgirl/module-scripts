@@ -1,6 +1,5 @@
 /* Feed style */
 .posts {
-  padding-top: 3rem;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
