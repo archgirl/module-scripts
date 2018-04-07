@@ -113,5 +113,7 @@ Here's my demo! [https://mmagdalena.carrd.co/](https://mmagdalena.carrd.co/)
 ## Chnagelog
 
 2018.04.07 :: Removed jQuery dependency with the help of some awesome people on Glitch!
+
 2018.04.01 :: Added additional styles, removed date parser dependency
-2018.05.31 :: Created! Started with 2 external library dependencies.
+
+2018.03.31 :: Created! Started with 2 external library dependencies.
