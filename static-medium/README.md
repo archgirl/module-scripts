@@ -64,8 +64,6 @@ Set the number of posts you would like. By default it is three.
   // Number of posts to display
   var postQuantity = 3;
 </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://archgirl.github.io/module-scripts/static-medium/script.js"></script>
 ```
 * * *
@@ -95,7 +93,6 @@ Then you'll want to import the scripts in Embed Widget #2
   var postQuantity = 3;
 </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://archgirl.github.io/module-scripts/static-medium/script.min.js"></script>
 ```
 
@@ -109,3 +106,14 @@ In Settings, you need to set:
 - Class = posts
 
 Here's my demo! [https://mmagdalena.carrd.co/](https://mmagdalena.carrd.co/)
+
+* * *
+* * *
+
+## Chnagelog
+
+2018.04.07 :: Removed jQuery dependency with the help of some awesome people on Glitch!
+
+2018.04.01 :: Added additional styles, removed date parser dependency
+
+2018.03.31 :: Created! Started with 2 external library dependencies.
