@@ -18,7 +18,7 @@ window.onload = function() {
       array.forEach(function (item, n) {
         
         // Display the image
-				output += '<article><a href="' + item.guid + '" aria-label="Read blog post"><header><div class="image"><img src="' + item.thumbnail + '">';
+				output += '<article><a href="' + item.guid + '" aria-label="Read blog post"><header><div class="image-medium"><img src="' + item.thumbnail + '">';
         
         // Get the date
         let date = new Date(item.pubDate);
