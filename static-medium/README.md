@@ -110,7 +110,7 @@ Here's my demo! [https://mmagdalena.carrd.co/](https://mmagdalena.carrd.co/)
 * * *
 * * *
 
-## Chnagelog
+## Changelog
 
 2018.04.07 :: Removed jQuery dependency with the help of some awesome people on Glitch!
 
