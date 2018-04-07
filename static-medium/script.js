@@ -2,7 +2,7 @@
 // And to @wuz and the other Glitchers who helped write this!
 
 window.onload = function() {
-  let content = document.getElementById('mediumPosts'); // @jensbern found my typo
+  let content = document.getElementById('mediumPosts'); // @jensbern fixed my typo
   let request = new XMLHttpRequest();
   
   // Convert RSS to JSON
