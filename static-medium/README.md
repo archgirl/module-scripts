@@ -11,27 +11,27 @@ There are 3 style options!
 
 **Card style**
 
-![card style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card.gif)
+![card style gif](https://m2creates.github.io/module-scripts/static-medium/img/medium-hover-card.gif)
 
 **Card Narrow style**
 
-![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-card2.gif)
+![card narrow style gif](https://m2creates.github.io/module-scripts/static-medium/img/medium-hover-card2.gif)
 
 **List style**
 
-![card narrow style gif](https://archgirl.github.io/module-scripts/static-medium/img/medium-hover-list.gif)
+![card narrow style gif](https://m2creates.github.io/module-scripts/static-medium/img/medium-hover-list.gif)
 
 Add the CSS for the style you want.
 
 ```
 <!-- For Card style -->
-<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards.min.css">
+<link rel="stylesheet" href="https://m2creates.github.io/module-scripts/static-medium/style-post-cards.min.css">
 
 <!-- For Card Narrow style -->
-<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-cards-narrow.min.css">
+<link rel="stylesheet" href="https://m2creates.github.io/module-scripts/static-medium/style-post-cards-narrow.min.css">
 
 <!-- For List style -->
-<link rel="stylesheet" href="https://archgirl.github.io/module-scripts/static-medium/style-post-list.min.css">
+<link rel="stylesheet" href="https://m2creates.github.io/module-scripts/static-medium/style-post-list.min.css">
 ```
 
 ### 2. Add the posts div inside the `<body>` where you want it
@@ -49,7 +49,7 @@ You will need to replace the placeholder handle with your feed!
 For example:
 
 - my publication = `creative-design-by-m2`
-- my personal feed = `@mmagdalena`
+- my personal feed = `@m2creates`
 
 ### 4. Add the scripts before `</body>`
 
@@ -64,7 +64,7 @@ Set the number of posts you would like. By default it is three.
   // Number of posts to display
   var postQuantity = 3;
 </script>
-<script src="https://archgirl.github.io/module-scripts/static-medium/script.js"></script>
+<script src="https://m2creates.github.io/module-scripts/static-medium/script.js"></script>
 ```
 * * *
 * * *
@@ -93,7 +93,7 @@ Then you'll want to import the scripts in Embed Widget #2
   var postQuantity = 3;
 </script>
 
-<script src="https://archgirl.github.io/module-scripts/static-medium/script.min.js"></script>
+<script src="https://m2creates.github.io/module-scripts/static-medium/script.min.js"></script>
 ```
 
 **Don't forget to replace the `mediumHandle` with your own!**
@@ -111,6 +111,8 @@ Here's my demo! [https://mmagdalena.carrd.co/](https://mmagdalena.carrd.co/)
 * * *
 
 ## Changelog
+
+2019.04.19 :: Updated slugs to reflect my new handle (m2creates)
 
 2018.04.07 :: Removed jQuery dependency with the help of some awesome people on Glitch!
 
